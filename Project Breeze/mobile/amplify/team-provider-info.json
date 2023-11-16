@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-breeze-staging-42056-authRole",
+      "UnauthRoleArn": "arn:aws:iam::398222781110:role/amplify-breeze-staging-42056-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::398222781110:role/amplify-breeze-staging-42056-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-breeze-staging-42056-deployment",
+      "UnauthRoleName": "amplify-breeze-staging-42056-unauthRole",
+      "StackName": "amplify-breeze-staging-42056",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:398222781110:stack/amplify-breeze-staging-42056/4927d420-3bc0-11ed-9163-0a13facdc27e",
+      "AmplifyAppId": "desh6jhl95ihl"
+    },
+    "categories": {
+      "auth": {
+        "Breeze": {}
+      }
+    }
+  }
+}

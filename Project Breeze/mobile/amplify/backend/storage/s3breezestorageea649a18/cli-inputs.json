@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3breezestorageea649a18",
+  "bucketName": "breeze-storage-ea649a18",
+  "policyUUID": "24f12168",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "match_details": {
+    "birthday": "1999-12-31T13:00:00.000+00:00",
+    "gender": "Male",
+    "preference": "female",
+    "location": {
+      "suburb": "Hawthorn",
+      "city": "Melbourne",
+      "state": "Victoria"
+    },
+    "interests": ["Running", "Swimming", "Sport"],
+    "personality": "INTROVERT"
+  },
+  "user": {
+    "_id": "5702e6e9-eef6-4d59-8437-d53d10d00008",
+    "photos": ["uri", "uri2"],
+    "first_name": "Kelvin",
+    "last_name": "Ha",
+    "email": "kokoz.ha20331@gmail.com"
+  }
+}
