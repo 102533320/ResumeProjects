@@ -1,0 +1,8 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/galvanic-augury-326107/github.com/sanjeosutin/php-sreps:$SHORT_SHA', '.']
+  timeout: 500s
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/galvanic-augury-326107/github.com/sanjeosutin/php-sreps:$SHORT_SHA']
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['run', 'deploy', 'php-sreps', '--region=australia-southeast1', '--platform=managed', '--image=gcr.io/galvanic-augury-326107/github.com/sanjeosutin/php-sreps:$SHORT_SHA']

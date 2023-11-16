@@ -1,0 +1,233 @@
+/**********************************************
+Project     : PHP-SRePS
+Date Created: 15/09/2021
+Description : main css file for PHP-SReP. 
+contributor : Nathaniel Brennan
+			: Khoa Anh
+ **********************************************/
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+  background: #1abc9c;
+  overflow: hidden;
+}
+.container{
+  margin-top: 40px;
+}
+::selection{
+  background: rgba(26,188,156,0.3);
+}
+.logcontainer{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+
+}
+.wrapper .title{
+  height: 90px;
+  background: #16a085;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+}
+form .button input:hover{
+  background: #12876f;
+}
+.wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a{
+  color: #16a085;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+
+.toast-container {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+
+
+/* Radio button */
+#option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #16a085;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000
+}
+
+#option-input:hover {
+    background: #12876f
+}
+
+#option-input:checked {
+    background: white
+}
+
+#option-input:checked::before {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px
+}
+
+#option-input:checked::after {
+    -webkit-animation: click-wave 0.25s;
+    -moz-animation: click-wave 0.25s;
+    animation: click-wave 0.25s;
+    background: white;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100
+}
+
+#option-input.radio {
+    border-radius: 50%
+}
+
+#option-input.radio::after {
+    border-radius: 50%
+}
+
+#monthReport, #weekReport, #customReport{
+  margin-top: 15px;
+}
+
+.form-check-label {
+color: white;
+font-size: 30px;
+text-align: center;
+
+}
+
+h3 {
+  color: white;
+}
+
+
+
+
+/* Footer element */
+footer{
+	position: fixed;
+	bottom:0;
+
+
+	background-color: #12876f;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	margin: auto;
+	text-align: center;
+	color: black;
+	clear: both;
+
+  user-select: none;
+
+}
